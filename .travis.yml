@@ -1,0 +1,21 @@
+sudo: true
+language: minimal
+services:
+  - mysql
+before_script:
+  - mkdir ~/out
+  - chmod +x scripts/*.sh
+  - chmod +x statistics/*.sh
+  - ./scripts/travis.sh
+script:
+  - ./scripts/init_mysql.sh
+  - ./statistics/stats.sh
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: out
+  target_branch: gh-pages
+  on:
+    branch: main
