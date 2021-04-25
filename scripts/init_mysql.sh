@@ -7,13 +7,13 @@ mysql -u root --password="" < scripts/sql/init_db.sql
 for file in $(find ~/owl_data/2018 -name "*.csv"); do 
 	echo "'{$file}' -> db" ; 
 	mysql -u root --password="" \
-	-e "set @file='{$file}', @table='owl2018'; source scripts/sql/old_players_data.sql"
+	-e "set @file='${$file}', @table='owl2018'; source scripts/sql/old_players_data.sql"
 done
 
 for file in $(find ~/owl_data/2019 -name "*.csv"); do 
 	echo "'{$file}' -> db" ; 
 	mysql -u root --password="" \
-	-e "set @file='{$file}', @table='owl2019'; source scripts/sql/old_players_data.sql"
+	-e "set @file='${$file}', @table='owl2019'; source scripts/sql/old_players_data.sql"
 done
 
 echo "Moving 2020_1 to db" ; 
@@ -25,9 +25,9 @@ mysql -u root --password="" \
 	-e "set @file='~/owl_data/2020/phs_2020_2.csv', @table='owl2020'; source scripts/sql/new_players_data.sql"
 
 for file in $(find ~/owl_data/2021 -name "*.csv"); do 
-	echo "'{$file}' -> db" ; 
+	echo "'${$file}' -> db" ; 
 	mysql -u root --password="" \
-	-e "set @file='{$file}'; source scripts/sql/new_players_data.sql"
+	-e "set @file='${$file}, @table='owl2021''; source scripts/sql/new_players_data.sql"
 done
 
 echo "Done moving files"

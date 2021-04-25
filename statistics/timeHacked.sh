@@ -5,4 +5,4 @@ mysql -u root --password="" OWL -t -e \
   GROUP BY player_name) as sum_ranks
   ORDER BY sum desc;" > '~/out/mostmeleekills.md'
 
-./convertMD.sh '~/out/mostmeleekills.md'
+./statistics/convertMD.sh '~/out/mostmeleekills.md'
