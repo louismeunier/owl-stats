@@ -1,7 +1,5 @@
 # allow file in
-echo "[mysqld]\n\rsecure_file_priv=~/owl_data" > ~travis/.my.cnf
 
-sudo systemctl restart mysql
 
 mysql -u root --password="" < sql/init_db.sql
 
