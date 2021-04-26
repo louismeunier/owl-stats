@@ -3,10 +3,7 @@ language: generic
 services:
   - mysql
 before_script:
-  - echo "[mysqld]\n\rsecure_file_priv=NULL" > ~travis/.my.cnf
-  - sudo systemctl restart mysql 
-  - sudo mysql_upgrade
-  - mkdir ~/out
+  - mkdir out
   - chmod +x scripts/*.sh
   - chmod +x statistics/*.sh
   - ./scripts/travis.sh
