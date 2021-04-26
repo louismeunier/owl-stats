@@ -10,7 +10,7 @@ CREATE TABLE owl2021 (
   esports_match_id NUMERIC,
   tournament_title VARCHAR(100),
   map_type VARCHAR(30),
-  map_name VARCHAR(5),
+  map_name VARCHAR(25),
   player_name VARCHAR(20),
   team_name VARCHAR(30),
   stat_name VARCHAR(60),
