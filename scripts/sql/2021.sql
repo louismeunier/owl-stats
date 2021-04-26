@@ -1,5 +1,5 @@
 USE OWL;
-LOAD DATA INFILE "~/owl_data/current.csv"
+LOAD DATA INFILE "/var/lib/mysql-files/current.csv"
 INTO TABLE owl2021
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
