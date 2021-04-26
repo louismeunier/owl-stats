@@ -13,7 +13,7 @@ do
   GROUP BY player_name LIMIT 10) as sum_ranks
   ORDER BY sum desc;" >> temp.md
   ./md.sh temp.md
-  sed -i '' '1s/^/\n'${y}'\n /' temp.md
+  sed -i'' '1s/^/\n'${y}'\n /' temp.md
   cat temp.md >>  /home/travis/build/louismeunier/owl-stats/out/$file_name.md
   rm temp.md
 done
