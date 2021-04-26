@@ -2,6 +2,8 @@
 CREATE DATABASE IF NOT EXISTS `OWL`;
 USE `OWL`;
 
+SHOW VARIABLES LIKE "secure_file_priv";
+
 /* Create all tables */
 CREATE TABLE owl2021 (
   start_time DATETIME,

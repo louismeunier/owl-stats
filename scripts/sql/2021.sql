@@ -1,6 +1,6 @@
 USE OWL;
 LOAD DATA INFILE "~/owl_data/current.csv"
-INTO TABLE @table
+INTO TABLE owl2021
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 ESCAPED BY '\\'
