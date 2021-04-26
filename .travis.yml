@@ -3,7 +3,7 @@ language: generic
 services:
   - mysql
 before_script:
-  - mkdir out
+  - mkdir /home/travis/build/louismeunier/owl-stats/out
   - chmod +x scripts/*.sh
   - chmod +x statistics/*.sh
   - ./scripts/travis.sh
