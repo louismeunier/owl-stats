@@ -1,5 +1,5 @@
 USE OWL;
-LOAD DATA INFILE @file
+LOAD DATA INFILE "~/owl_data/current.csv"
 INTO TABLE @table
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
