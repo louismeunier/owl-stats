@@ -1,1 +1,0 @@
-./timeHacked.sh
