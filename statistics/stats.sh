@@ -1,1 +1,1 @@
-./statistics/timeHacked.sh
+./statistics/generateStat.sh timeHacked 'Time Hacked'
