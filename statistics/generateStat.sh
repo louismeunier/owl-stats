@@ -6,7 +6,7 @@ file_name=$2
 years=( 2021 2020 2019 2018 )
 for y in "${years[@]}"
 do
-  mysql -u root --password="password" OWL -t -e \
+  mysql -u root --password="" OWL -t -e \
     "SET @rownum:=0; SELECT @rownum:=@rownum+1 pos,  ROUND(sum,2) as seconds, player FROM (
   SELECT SUM(stat_amount) as sum, player_name as player
   FROM owl${y} WHERE stat_name='${stat}' 
