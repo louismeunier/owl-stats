@@ -12,7 +12,7 @@ do
   FROM owl${y} WHERE stat_name='${stat}' 
   GROUP BY player_name LIMIT 10) as sum_ranks
   ORDER BY sum desc;" >> temp.md
-  ./home/travis/build/louismeunier/owl-stats/statistics/md.sh /home/travis/build/louismeunier/owl-stats/statistics/temp.md
+  ./statistics/md.sh /home/travis/build/louismeunier/owl-stats/statistics/temp.md
   sed -i'' '1s/^/\n'${y}'\n /' temp.md
   cat temp.md >>  /home/travis/build/louismeunier/owl-stats/out/$file_name.md
   rm temp.md
