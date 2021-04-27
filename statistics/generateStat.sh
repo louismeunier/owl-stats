@@ -1,7 +1,7 @@
 #!/bin/bash
 #can/should probably generalize this to make it easier for general stats; very limited rn
-stat=$1
-file_name=$2
+file_name=$1
+stat=$2
 
 years=( 2021 2020 2019 2018 )
 for y in "${years[@]}"
