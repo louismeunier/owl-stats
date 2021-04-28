@@ -1,8 +1,8 @@
+# ${stat} \n\n
 
 2021
 
- |------|---------|----------|
-| pos  | seconds | player   |
+ | pos  | seconds | player   |
 |------|---------|----------|
 |    1 |  111.94 | FEARLESS |
 |    2 |   86.51 | Hanbin   |
