@@ -3,7 +3,8 @@
 file_name=$1
 stat=$2
 
-echo '# ${stat} \n\n' >> /home/travis/build/louismeunier/owl-stats/out/"$file_name".md
+touch /home/travis/build/louismeunier/owl-stats/out/"$file_name".md
+sed -i'' '1s/^/'${stat}'\n\n /' /home/travis/build/louismeunier/owl-stats/out/"$file_name".md
 years=( 2021 2020 2019 2018 )
 for y in "${years[@]}"
 do
