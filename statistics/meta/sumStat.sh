@@ -20,7 +20,7 @@ do
   SELECT SUM(stat_amount) as sum, player_name as player
   FROM owl${y} WHERE stat_name='${STAT}' 
   GROUP BY player_name) as sum_ranks
-  ORDER BY sum '${ORDER}' LIMIT 10;" >> temp.md
+  ORDER BY sum LIMIT 10;" >> temp.md
   ./statistics/md.sh temp.md
   sed -i'' '1s/^/\n'${y}'\n\n /' temp.md
   cat temp.md >> /home/travis/build/louismeunier/owl-stats/out/"$FILE_NAME".md
