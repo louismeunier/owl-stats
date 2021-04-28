@@ -5,7 +5,7 @@ services:
 before_script:
   - mkdir /home/travis/build/louismeunier/owl-stats/out
   - chmod +x scripts/*.sh
-  - chmod +x statistics/*.sh
+  - chmod --recursive +x statistics/*.sh
   - ./scripts/upgrade_mysql.sh
   - ./scripts/travis.sh
 script:
