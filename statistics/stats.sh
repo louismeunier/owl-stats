@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./statistics/meta/sumStat.sh timeHacked 'Time Hacked' seconds desc
-./statistics/meta/sumStat.sh benched 'Time Played' seconds 
+source statistics/meta/sumStat.sh timeHacked 'Time Hacked' seconds desc
+source statistics/meta/sumStat.sh benched 'Time Played' seconds 
