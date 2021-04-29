@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ruby /home/travis/build/louismeunier/owl-stats/statistics/logic/benched.rb
-ruby /home/travis/build/louismeunier/owl-stats/statistics/logic/timeHacked.rb
+ruby ./statistics/logic/benched.rb
+ruby ./statistics/logic/timeHacked.rb
