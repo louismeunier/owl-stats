@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 def format(year, fileName)
-    puts `sed -i'' 's/\+/|/g/' temp.md`
+    puts `sed -i'' 's/\\+/|/g' temp.md`
     puts `sed -i'' '1d' temp.md`
     puts `sed -i'' '$d' temp.md`
     puts `sed -i'' '1s/^/\n'#{year}'\n\n\n /' temp.md`
