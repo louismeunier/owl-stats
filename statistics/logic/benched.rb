@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require "/home/travis/build/louismeunier/owl-stats/out/statistics/meta/meta"
+require "/home/travis/build/louismeunier/owl-stats/statistics/meta/meta"
 
 cmd="SET @rownum:=0; 
     SELECT @rownum:=@rownum+1 place, ROUND(sum,2) as seconds, player FROM (
