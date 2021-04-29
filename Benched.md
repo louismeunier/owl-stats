@@ -1,5 +1,8 @@
 # Benched
-| place | seconds  | player    |
+
+2018
+
+ | place | seconds  | player    |
 |-------|----------|-----------|
 |     1 |   305.53 | iddqd     |
 |     2 |   582.18 | Numlocked |
@@ -11,7 +14,10 @@
 |     8 | 12364.98 | Sky       |
 |     9 | 12526.59 | Spree     |
 |    10 | 13078.97 | Daemin    |
-| place | seconds | player     |
+
+2019
+
+ | place | seconds | player     |
 |-------|---------|------------|
 |     1 |  392.19 | Bunny      |
 |     2 |  413.67 | snillo     |
@@ -23,7 +29,10 @@
 |     8 | 1215.66 | Bischu     |
 |     9 | 1215.66 | fragi      |
 |    10 | 1312.04 | Asher      |
-| place | seconds | player     |
+
+2020
+
+ | place | seconds | player     |
 |-------|---------|------------|
 |     1 |  498.39 | ChipSa     |
 |     2 |  520.77 | Bischu     |
@@ -35,7 +44,10 @@
 |     8 | 2699.92 | Geguri     |
 |     9 | 3442.65 | ryujehong  |
 |    10 | 3528.41 | ta1yo      |
-| place | seconds | player    |
+
+2021
+
+ | place | seconds | player    |
 |-------|---------|-----------|
 |     1 |  327.99 | Jake      |
 |     2 |  450.59 | ta1yo     |

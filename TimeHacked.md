@@ -1,5 +1,8 @@
 # Time Hacked
-| place | seconds | player     |
+
+2019
+
+ | place | seconds | player     |
 |-------|---------|------------|
 |     1 | 1514.83 | Choihyobin |
 |     2 | 1158.50 | ameng      |
@@ -11,7 +14,10 @@
 |     8 |  864.94 | Muma       |
 |     9 |  863.25 | sinatraa   |
 |    10 |  846.71 | Rascal     |
-| place | seconds | player  |
+
+2020
+
+ | place | seconds | player  |
 |-------|---------|---------|
 |     1 | 1224.52 | Elsa    |
 |     2 | 1183.99 | Gesture |
@@ -23,7 +29,10 @@
 |     8 |  884.17 | Marve1  |
 |     9 |  880.48 | Guxue   |
 |    10 |  869.26 | Void    |
-| place | seconds | player   |
+
+2021
+
+ | place | seconds | player   |
 |-------|---------|----------|
 |     1 |  154.81 | HOTBA    |
 |     2 |  111.94 | FEARLESS |
