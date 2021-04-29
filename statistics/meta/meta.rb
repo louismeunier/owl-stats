@@ -5,7 +5,7 @@ def format(year, fileName)
     puts `sed -i'' '1d' temp.md`
     puts `sed -i'' '$d' temp.md`
     puts `sed -i'' '1s/^/\n'#{year}'\n\n /' temp.md`
-    puts `cat temp.md >> /home/travis/build/louismeunier/owl-stats/out/#{fileName.md}`
+    puts `cat temp.md >> /home/travis/build/louismeunier/owl-stats/out/#{fileName}.md`
     puts `rm temp.md`
 end
 
