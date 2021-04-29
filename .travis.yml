@@ -1,5 +1,7 @@
 sudo: true
-language: generic
+language: ruby
+rvm: 
+  - 2.5
 services:
   - mysql
 before_script:

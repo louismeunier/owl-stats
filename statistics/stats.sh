@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source statistics/meta/sumStat.sh timeHacked 'Time Hacked' seconds desc
-source statistics/meta/sumStat.sh benched 'Time Played' seconds 
+ruby /home/travis/build/louismeunier/owl-stats/statistics/logic/benched.rb
+ruby /home/travis/build/louismeunier/owl-stats/statistics/logic/timeHacked.rb
