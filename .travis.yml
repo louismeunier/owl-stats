@@ -2,9 +2,20 @@ sudo: true
 language: ruby
 rvm: 
   - 2.5
+addons:
+apt:
+  sources:
+    - google-chrome
+  packages:
+    - google-chrome-stable
 services:
   - mysql
 before_script:
+  - wget http://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - sudo apt-get --only-upgrade install google-chrome-stable
+  - sudo cp chromedriver /usr/local/bin/.
+  - sudo chmod +x /usr/local/bin/chromedriver
   - mkdir /home/travis/build/louismeunier/owl-stats/out
   - chmod +x scripts/*.sh
   - chmod -R +x statistics/*.sh

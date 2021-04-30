@@ -1,5 +1,3 @@
-sudo apt-get install chromium-driver
-
 # download data from owl and unzip to own folders
 mkdir ~/owl_data ~/owl_data/2018 ~/owl_data/2019 ~/owl_data/2020 ~/owl_data/2021
 
