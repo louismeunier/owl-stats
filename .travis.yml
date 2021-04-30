@@ -13,8 +13,6 @@ services:
 before_script:
   - sudo apt-get install chromium-driver
   - sudo apt-get --only-upgrade install google-chrome-stable
-  - sudo cp chromedriver /usr/local/bin/.
-  - sudo chmod +x /usr/local/bin/chromedriver
   - mkdir /home/travis/build/louismeunier/owl-stats/out
   - chmod +x scripts/*.sh
   - chmod -R +x statistics/*.sh
