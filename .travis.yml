@@ -12,7 +12,6 @@ services:
   - mysql
 before_script:
   - sudo apt-get install chromium-driver
-  - unzip chromedriver_linux64.zip
   - sudo apt-get --only-upgrade install google-chrome-stable
   - sudo cp chromedriver /usr/local/bin/.
   - sudo chmod +x /usr/local/bin/chromedriver
