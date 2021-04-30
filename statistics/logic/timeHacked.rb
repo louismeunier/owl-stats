@@ -13,4 +13,4 @@ fileName="Time Hacked"
 
 description="Players with the most time being hacked per year (all heroes)"
 
-query(cmd, fileName);
+query(cmd, fileName, description);
