@@ -11,4 +11,6 @@ cmd="SET @rownum:=0;
 
 fileName="Time Hacked"
 
+description="Players with the most time being hacked per year (all heroes)"
+
 query(cmd, fileName);

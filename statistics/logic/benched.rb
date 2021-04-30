@@ -11,4 +11,6 @@ cmd="SET @rownum:=0;
 
 fileName="Benched"
 
-query(cmd, fileName);
+description="Players with the least play time per year (all heroes)"
+
+query(cmd, fileName, description);
