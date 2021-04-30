@@ -1,5 +1,8 @@
 # Time Hacked
 
+# Players with the most time being hacked per year (all heroes)
+
+
 2019
 
  | place | seconds | player     |

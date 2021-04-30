@@ -1,5 +1,8 @@
 # Benched
 
+# Players with the least play time per year (all heroes)
+
+
 2018
 
  | place | seconds  | player    |
