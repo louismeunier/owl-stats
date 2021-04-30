@@ -2,15 +2,11 @@ sudo: true
 language: ruby
 rvm: 
   - 2.5
-addons:
-apt:
-  sources:
-    - google-chrome
-  packages:
-    - google-chrome-stable
 services:
   - mysql
 before_script:
+  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  - sudo apt install ./google-chrome-stable_current_amd64.deb
   - wget https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
   - sudo apt-get --only-upgrade install google-chrome-stable
