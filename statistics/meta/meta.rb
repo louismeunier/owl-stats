@@ -11,7 +11,7 @@ end
 
 def query(sql, file, desc)
     puts `echo "# #{file}\\n" >> /home/travis/build/louismeunier/owl-stats/out/#{file.gsub(/\s+/, "")}.md`
-    puts `echo "# #{desc}\\n" >> /home/travis/build/louismeunier/owl-stats/out/#{file.gsub(/\s+/, "")}.md`
+    puts `echo "## #{desc}\\n" >> /home/travis/build/louismeunier/owl-stats/out/#{file.gsub(/\s+/, "")}.md`
     for year in (2018..2021) do
     	puts `mysql -u root --password='' -t -e "#{sql % year}" >> temp.md`;
         format(year, file.gsub(/\s+/, ""));
