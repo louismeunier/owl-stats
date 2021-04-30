@@ -2,7 +2,8 @@ require 'watir'
 
 URL='https://overwatchleague.com/en-us/statslab'
 
-browser=Watir::Browser.new
+args["--no-sandbox","-disable-dev-shm-usage"]
+browser=Watir::Browser.new :chrome, headless: true, options: {args: args}
 
 browser.goto URL
 
