@@ -10,6 +10,8 @@ def format(year, fileName)
 end
 
 def query(sql, file, desc)
+    puts `echo "## ['#{file}'](/'#{file}')\\n" >> /home/travis/build/louismeunier/owl-stats/out/README.md`
+    puts `echo "### #{desc} \\n\\n" >> /home/travis/build/louismeunier/owl-stats/out/README.md`
     puts `echo "# #{file}\\n" >> /home/travis/build/louismeunier/owl-stats/out/#{file.gsub(/\s+/, "")}.md`
     puts `echo "## #{desc}\\n" >> /home/travis/build/louismeunier/owl-stats/out/#{file.gsub(/\s+/, "")}.md`
     for year in (2018..2021) do
