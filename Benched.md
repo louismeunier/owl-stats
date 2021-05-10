@@ -55,10 +55,10 @@
 |     1 |  419.55 | Gwangboong |
 |     2 |  450.59 | Hydration  |
 |     3 |  450.59 | ta1yo      |
-|     4 |  601.56 | shy        |
-|     5 |  646.28 | FEATH5R    |
-|     6 |  703.63 | Logix      |
-|     7 |  703.63 | Beast      |
-|     8 |  703.63 | Aztac      |
-|     9 |  781.46 | SeoMinSoo  |
-|    10 | 1341.37 | Edison     |
+|     4 |  651.27 | Marve1     |
+|     5 |  703.63 | Beast      |
+|     6 |  721.25 | Yveltal    |
+|     7 |  721.25 | Farway1987 |
+|     8 |  721.25 | ameng      |
+|     9 | 1259.36 | SeoMinSoo  |
+|    10 | 1425.97 | FEATH5R    |
