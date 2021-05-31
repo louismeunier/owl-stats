@@ -52,13 +52,13 @@
 
  | place | seconds | player     |
 |-------|---------|------------|
-|     1 |  419.55 | Gwangboong |
-|     2 |  450.59 | Hydration  |
-|     3 |  450.59 | ta1yo      |
-|     4 |  651.27 | Marve1     |
-|     5 |  703.63 | Beast      |
-|     6 |  721.25 | Yveltal    |
-|     7 | 1259.36 | SeoMinSoo  |
-|     8 | 1425.97 | FEATH5R    |
-|     9 | 1439.42 | Logix      |
-|    10 | 1439.42 | Aztac      |
+|     1 |  450.59 | Hydration  |
+|     2 |  450.59 | ta1yo      |
+|     3 |  651.27 | Marve1     |
+|     4 |  703.63 | Beast      |
+|     5 | 1259.36 | SeoMinSoo  |
+|     6 | 1395.96 | Gwangboong |
+|     7 | 1439.42 | Logix      |
+|     8 | 1439.42 | Aztac      |
+|     9 | 1461.96 | Takoyaki   |
+|    10 | 1556.37 | Glister    |
