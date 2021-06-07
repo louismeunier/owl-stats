@@ -35,18 +35,18 @@
 
 2020
 
- | place | seconds | player     |
-|-------|---------|------------|
-|     1 |  498.39 | ChipSa     |
-|     2 |  520.77 | Bischu     |
-|     3 |  715.44 | ColdesT    |
-|     4 | 1031.62 | mikeyy     |
-|     5 | 1623.47 | Ado        |
-|     6 | 1964.04 | Munchkin   |
-|     7 | 2118.11 | sayaplayer |
-|     8 | 2699.92 | Geguri     |
-|     9 | 3442.65 | ryujehong  |
-|    10 | 3528.41 | ta1yo      |
+ | place | seconds | player       |
+|-------|---------|--------------|
+|     1 |  498.39 | ChipSa       |
+|     2 |  520.77 | Bischu       |
+|     3 |  715.44 | ColdesT      |
+|     4 |  988.90 | ROY          |
+|     5 |  988.90 | YangXiaoLong |
+|     6 |  988.90 | Time         |
+|     7 |  988.90 | Peach        |
+|     8 |  988.90 | AKaros       |
+|     9 |  988.90 | Vivi         |
+|    10 |  988.90 | 9duo         |
 
 2021
 
@@ -54,11 +54,11 @@
 |-------|---------|------------|
 |     1 |  450.59 | Hydration  |
 |     2 |  450.59 | ta1yo      |
-|     3 |  651.27 | Marve1     |
+|     3 |  546.01 | WhoRu      |
 |     4 |  703.63 | Beast      |
 |     5 | 1259.36 | SeoMinSoo  |
-|     6 | 1395.96 | Gwangboong |
-|     7 | 1439.42 | Logix      |
-|     8 | 1439.42 | Aztac      |
-|     9 | 1461.96 | Takoyaki   |
-|    10 | 1556.37 | Glister    |
+|     6 | 1439.42 | Logix      |
+|     7 | 1439.42 | Aztac      |
+|     8 | 1461.96 | Takoyaki   |
+|     9 | 1805.47 | ameng      |
+|    10 | 2384.95 | Gwangboong |
