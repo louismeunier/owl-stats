@@ -57,8 +57,8 @@
 |     3 |  546.01 | WhoRu      |
 |     4 |  703.63 | Beast      |
 |     5 | 1259.36 | SeoMinSoo  |
-|     6 | 1439.42 | Logix      |
-|     7 | 1439.42 | Aztac      |
+|     6 | 1439.42 | Aztac      |
+|     7 | 1439.42 | Logix      |
 |     8 | 1461.96 | Takoyaki   |
-|     9 | 1805.47 | ameng      |
-|    10 | 2384.95 | Gwangboong |
+|     9 | 2384.95 | Gwangboong |
+|    10 | 2561.71 | KSF        |
