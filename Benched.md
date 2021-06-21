@@ -52,8 +52,8 @@
 
  | place | seconds | player     |
 |-------|---------|------------|
-|     1 |  450.59 | Hydration  |
-|     2 |  450.59 | ta1yo      |
+|     1 |  450.59 | ta1yo      |
+|     2 |  450.59 | Hydration  |
 |     3 |  546.01 | WhoRu      |
 |     4 |  703.63 | Beast      |
 |     5 | 1259.36 | SeoMinSoo  |
