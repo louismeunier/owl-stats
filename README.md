@@ -8,4 +8,4 @@
 ### Players with the most time being hacked per year (all heroes) 
 
 
-#### last updated: Mon Jun 21 04:48:29 UTC 2021
+#### last updated: Mon Jun 28 04:48:44 UTC 2021
