@@ -50,15 +50,15 @@
 
 2021
 
- | place | seconds | player     |
-|-------|---------|------------|
-|     1 |  450.59 | ta1yo      |
-|     2 |  450.59 | Hydration  |
-|     3 |  546.01 | WhoRu      |
-|     4 |  703.63 | Beast      |
-|     5 | 1259.36 | SeoMinSoo  |
-|     6 | 1439.42 | Aztac      |
-|     7 | 1439.42 | Logix      |
-|     8 | 1461.96 | Takoyaki   |
-|     9 | 2384.95 | Gwangboong |
-|    10 | 2561.71 | KSF        |
+ | place | seconds | player    |
+|-------|---------|-----------|
+|     1 |  450.59 | ta1yo     |
+|     2 |  450.59 | Hydration |
+|     3 |  546.01 | WhoRu     |
+|     4 |  595.65 | ColourHex |
+|     5 |  694.91 | lateyoung |
+|     6 |  703.63 | Beast     |
+|     7 | 1207.86 | CHECKMATE |
+|     8 | 1415.21 | ANS       |
+|     9 | 1439.42 | Logix     |
+|    10 | 1439.42 | Aztac     |
