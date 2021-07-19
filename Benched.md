@@ -55,10 +55,10 @@
 |     1 |  450.59 | ta1yo      |
 |     2 |  450.59 | Hydration  |
 |     3 |  546.01 | WhoRu      |
-|     4 |  595.65 | ColourHex  |
-|     5 |  694.91 | lateyoung  |
-|     6 |  703.63 | Beast      |
-|     7 | 1439.42 | Aztac      |
-|     8 | 1439.42 | Logix      |
-|     9 | 1461.96 | Takoyaki   |
-|    10 | 2211.34 | TaroCook1e |
+|     4 |  703.63 | Beast      |
+|     5 | 1105.68 | ColourHex  |
+|     6 | 1439.42 | Logix      |
+|     7 | 1461.96 | Takoyaki   |
+|     8 | 2211.34 | TaroCook1e |
+|     9 | 2514.89 | Aztac      |
+|    10 | 2561.71 | KSF        |
