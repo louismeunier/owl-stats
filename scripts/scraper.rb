@@ -1,4 +1,5 @@
 require 'watir'
+require 'webdrivers/chromedriver'
 
 URL='https://overwatchleague.com/en-us/statslab'
 
