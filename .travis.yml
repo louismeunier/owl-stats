@@ -1,7 +1,6 @@
 sudo: true
 language: ruby
 rvm: 
-  - 2.5
   - 2.6
 services:
   - mysql
