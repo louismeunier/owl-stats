@@ -13,4 +13,4 @@
 ### Players with the most play time per year (all heroes) 
 
 
-#### last updated: Mon Dec 13 05:01:17 UTC 2021
+#### last updated: Mon Dec 20 05:02:09 UTC 2021
